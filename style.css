@@ -23,6 +23,14 @@ a.obj{color:inherit;text-decoration:none}
 .nav-underline a.on{box-shadow:inset 0 -2px 0 var(--na)}
 .nav-tabs>.nv>a{background:rgba(0,0,0,.06);border-radius:6px}
 .nav-tabs>.nv>a.on{background:var(--na);color:var(--nai)}
+/* Hamburger scaffolding — inert on desktop: the items lay out via display:contents
+   exactly as before, and the burger/checkbox/backdrop are hidden. The @media block
+   in a responsive publish switches this into a slide-in sidebar. */
+.obj-nav .nav-toggle{display:none}
+.obj-nav .nav-links{display:contents}
+.obj-nav .nav-burger{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;padding:9px;cursor:pointer;box-sizing:border-box}
+.obj-nav .nav-burger .b{display:block;width:100%;height:3px;border-radius:2px;background:currentColor}
+.obj-nav .nav-backdrop{display:none}
 .nav-plain a.on{color:var(--na)}
 .obj-table table{width:100%;height:100%;border-collapse:collapse;table-layout:fixed}
 .obj-table td{border:1px solid var(--tb);padding:0 10px}
