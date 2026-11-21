@@ -1,5 +1,7 @@
 *{box-sizing:border-box}
+html{color-scheme:only light}
 body{margin:0;padding:0}
+.obj-row{display:contents}
 .pf-page{position:relative;margin:0 auto;overflow:hidden;font-family:Arial,sans-serif;color:#222;font-size:16px}
 .obj{position:absolute;margin:0;display:block}
 a.obj{color:inherit;text-decoration:none}
