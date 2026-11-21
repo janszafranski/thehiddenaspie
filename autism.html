@@ -42,6 +42,7 @@ body{background:#5193b8 url(images/page-stripes.png) top left repeat}
 #o17{left:530px;top:490px;width:400px;height:220px;border-radius:0px;overflow:hidden;background:#000;}
 #o18{left:26px;top:1284px;width:930px;height:280px;font-family:'Arial', Arial, sans-serif;font-size:16px;color:#0089c9;text-align:left;font-weight:400;font-style:normal;text-decoration:none;line-height:1.4;padding:0px;--pg:0.4;}
 #o19{left:30px;top:1190px;width:100px;height:30px;overflow:hidden;}
+@media (max-width:760px){.pf-wrap{overflow-x:visible}.pf-page{position:static!important;left:auto!important;top:auto!important;width:100%!important;height:auto!important;transform:none!important;overflow:visible!important;display:flex;flex-direction:column;align-items:center}.obj{position:relative!important;left:auto!important;top:auto!important;width:100%!important;height:auto!important;margin:0 auto 14px!important;transform:none!important}.obj-picture img,.obj-line svg{width:100%!important;height:auto!important}#o1{order:0;max-width:710px;}#o2{order:1;max-width:200px;}#o4{order:2;max-width:930px;}#o3{order:3;max-width:930px;}#o5{order:4;max-width:930px;}#o9{order:5;max-width:930px;}#o10{order:6;max-width:930px;}#o11{order:7;max-width:490px;}#o17{order:8;max-width:400px;aspect-ratio:16/9;}#o12{order:9;max-width:480px;}#o13{order:10;max-width:930px;}#o14{order:11;max-width:930px;}#o15{order:12;max-width:930px;}#o16{order:13;max-width:900px;}#o19{order:14;max-width:100px;}#o18{order:15;max-width:930px;}#o7{order:16;max-width:480px;}#o8{order:17;max-width:480px;}#o6{order:18;max-width:951px;}}
 </style>
 </head>
 <body>
@@ -104,6 +105,6 @@ body{background:#5193b8 url(images/page-stripes.png) top left repeat}
 <a id="o19" class="obj obj-picture" href="aspie-test-pdd-nos.html"><img loading="lazy" decoding="async" src="images/bouton2.png" alt="" style="object-fit:fill"></a>
 </div>
 </div>
-<script>(function(){var W=970,MX=1.5,p=document.querySelector(".pf-page"),w=document.querySelector(".pf-wrap");function fit(){var vw=w.clientWidth,s=Math.min(vw/W,MX);p.style.transform="scale("+s+")";p.style.left=Math.max(0,(vw-W*s)/2)+"px";w.style.height=(p.offsetHeight*s)+"px"}window.addEventListener("resize",fit);fit();})();</script>
+<script>(function(){var W=970,MX=1.5,BRK=760,p=document.querySelector(".pf-page"),w=document.querySelector(".pf-wrap");function fit(){var vw=w.clientWidth;if(vw<=BRK){p.style.transform="";p.style.left="";w.style.height="";return}var s=Math.min(vw/W,MX);p.style.transform="scale("+s+")";p.style.left=Math.max(0,(vw-W*s)/2)+"px";w.style.height=(p.offsetHeight*s)+"px"}window.addEventListener("resize",fit);fit();})();</script>
 </body>
 </html>

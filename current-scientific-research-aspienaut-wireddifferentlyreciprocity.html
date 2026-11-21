@@ -37,6 +37,7 @@ body{background:#5193b8 url(images/page-stripes.png) top left repeat}
 #o14{left:34px;top:714px;width:930px;height:19px;font-family:'Arial', Arial, sans-serif;font-size:13px;color:#000000;text-align:left;font-weight:400;font-style:normal;text-decoration:none;line-height:normal;padding:0px;--pg:0;}
 #o15{left:34px;top:747px;width:930px;height:19px;font-family:'Arial', Arial, sans-serif;font-size:13px;color:#000000;text-align:left;font-weight:400;font-style:normal;text-decoration:none;line-height:normal;padding:0px;--pg:0;}
 #o16{left:26px;top:806px;width:620px;height:360px;overflow:hidden;}
+@media (max-width:760px){.pf-wrap{overflow-x:visible}.pf-page{position:static!important;left:auto!important;top:auto!important;width:100%!important;height:auto!important;transform:none!important;overflow:visible!important;display:flex;flex-direction:column;align-items:center}.obj{position:relative!important;left:auto!important;top:auto!important;width:100%!important;height:auto!important;margin:0 auto 14px!important;transform:none!important}.obj-picture img,.obj-line svg{width:100%!important;height:auto!important}#o1{order:0;max-width:710px;}#o2{order:1;max-width:200px;}#o4{order:2;max-width:930px;}#o3{order:3;max-width:930px;}#o5{order:4;max-width:930px;}#o10{order:5;max-width:936px;}#o9{order:6;max-width:934px;}#o13{order:7;max-width:930px;}#o11{order:8;max-width:930px;}#o12{order:9;max-width:930px;}#o14{order:10;max-width:930px;}#o15{order:11;max-width:930px;}#o16{order:12;max-width:620px;}#o7{order:13;max-width:480px;}#o8{order:14;max-width:480px;}#o6{order:15;max-width:951px;}}
 </style>
 </head>
 <body>
@@ -63,6 +64,6 @@ body{background:#5193b8 url(images/page-stripes.png) top left repeat}
 <div id="o16" class="obj obj-picture"><img loading="lazy" decoding="async" src="images/neurodiversi.jpg" alt="" style="object-fit:cover"></div>
 </div>
 </div>
-<script>(function(){var W=970,MX=1.5,p=document.querySelector(".pf-page"),w=document.querySelector(".pf-wrap");function fit(){var vw=w.clientWidth,s=Math.min(vw/W,MX);p.style.transform="scale("+s+")";p.style.left=Math.max(0,(vw-W*s)/2)+"px";w.style.height=(p.offsetHeight*s)+"px"}window.addEventListener("resize",fit);fit();})();</script>
+<script>(function(){var W=970,MX=1.5,BRK=760,p=document.querySelector(".pf-page"),w=document.querySelector(".pf-wrap");function fit(){var vw=w.clientWidth;if(vw<=BRK){p.style.transform="";p.style.left="";w.style.height="";return}var s=Math.min(vw/W,MX);p.style.transform="scale("+s+")";p.style.left=Math.max(0,(vw-W*s)/2)+"px";w.style.height=(p.offsetHeight*s)+"px"}window.addEventListener("resize",fit);fit();})();</script>
 </body>
 </html>
