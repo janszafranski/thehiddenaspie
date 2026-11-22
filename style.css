@@ -34,6 +34,17 @@ a.obj{color:inherit;text-decoration:none}
 .obj-nav .nav-burger .b{display:block;width:100%;height:3px;border-radius:2px;background:currentColor}
 .obj-nav .nav-backdrop{display:none}
 .nav-plain a.on{color:var(--na)}
+/* News Feed — a scrollable list of story cards, rendered inline at publish */
+.obj-newsfeed{overflow:hidden}
+.nf-scroll{display:flex;flex-direction:column;gap:12px;height:100%;overflow-y:auto;overflow-x:hidden;padding:2px;-webkit-overflow-scrolling:touch}
+.nf-card{display:flex;align-items:stretch;background:var(--nfbg,#fff);border:1px solid rgba(0,0,0,.1);border-radius:10px;overflow:hidden;text-decoration:none;color:var(--nfink,#1f2a30);box-shadow:0 1px 3px rgba(0,0,0,.08);transition:box-shadow .15s ease,transform .15s ease}
+.nf-card:hover{box-shadow:0 5px 16px rgba(0,0,0,.17);transform:translateY(-1px)}
+.nf-thumb{flex:0 0 104px;align-self:stretch;min-height:88px;background-size:cover;background-position:center;background-color:#e7edf0}
+.nf-body{display:block;padding:12px 15px;min-width:0}
+.nf-title{display:block;font-weight:700;font-size:1.03em;line-height:1.25;color:var(--nfacc,#2a7d6b);margin-bottom:3px}
+.nf-date{display:block;font-size:.78em;opacity:.6;margin-bottom:6px}
+.nf-excerpt{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:.9em;line-height:1.42;opacity:.92}
+.nf-empty{display:block;padding:22px;text-align:center;opacity:.6}
 .obj-table table{width:100%;height:100%;border-collapse:collapse;table-layout:fixed}
 .obj-table td{border:1px solid var(--tb);padding:0 10px}
 .obj-table tr:first-child td{background:var(--th);font-weight:700}
