@@ -2,6 +2,27 @@
  "feeds": {
   "current-scientific-research.html": [
    {
+    "title": "Autistic brains differ most in the individual, not the average",
+    "url": "autistic-brains-differ-most-in-the-individual-not-the-average.html",
+    "date": "2026-11-17",
+    "excerpt": "A University of Iowa study found that autistic and non-autistic people show similar average brain activity, but autistic individuals vary far more from one another \u2014 especially in regions tied to social processing. The researchers argue that group averages can mask the individuality that matters, an",
+    "image": null
+   },
+   {
+    "title": "Early research explores boosting a healthy gene copy in single-gene conditions",
+    "url": "early-research-explores-boosting-a-healthy-gene-copy-in-single-gene-conditions.html",
+    "date": "2026-11-16",
+    "excerpt": "UCLA scientists used a modified CRISPR technique on lab-grown human brain cells to raise the activity of a healthy gene copy, partly offsetting effects of mutations in the CHD8 and SCN2A genes that are linked to some autism and neurodevelopmental conditions. It is an early proof-of-concept: results",
+    "image": "images/Early-research-explores-boosting-a-healt.jpg"
+   },
+   {
+    "title": "Study points to the placenta as a possible origin of autism traits",
+    "url": "study-points-to-the-placenta-as-a-possible-origin-of-autism-traits.html",
+    "date": "2026-11-03",
+    "excerpt": "Researchers at Cold Spring Harbor Laboratory found that, in mice, immune activation during pregnancy produced autism-like traits only in males, with the effect traced to specialised placental cells that normally shield the fetus from the mother's immune response. The work suggests some developmental",
+    "image": null
+   },
+   {
     "title": "Beautiful minds, wasted",
     "url": "current-scientific-research-beautifulmindswasted.html",
     "date": "2016-04-27",
